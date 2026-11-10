@@ -1,11 +1,11 @@
 # FrontEnd Commit Workshop React
-This is a repository for the live demo of react workshop, you can visit each project for their documentation inside the `/docs`
+This is a repository for the live demo of react workshop, you can visit each project for their documentation inside the `src/`
 
 ## How to run
 * Make sure you are on the right folder project like `/CFE0` 
 * run `npm run dev` or `bun run dev`
 
-## [CFE0](./CFE0) - Components & Props
+## [CFE0](./src/CFE0) - Components & Props
 
 Summary of key concepts learned in this session:
 
