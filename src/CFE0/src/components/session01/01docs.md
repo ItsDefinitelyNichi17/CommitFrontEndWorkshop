@@ -77,5 +77,3 @@ export function ComponentChild({ children }) {
 * Use `{ children }` to render content nested inside component tags
 
 <br>
-
-Check [here](../src/components/) for the component codes and props code

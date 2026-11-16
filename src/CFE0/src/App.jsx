@@ -1,13 +1,11 @@
-import { ComponentA, ComponentB } from './components/PropsAndComponent.jsx'
-import { ComponentParent} from './components/ChildrenProps.jsx'
+import { ComponentA, ComponentB } from './components/session01/PropsAndComponent.jsx'
+import { ComponentParent} from './components/session01/ChildrenProps.jsx'
 import './App.css'
 
 function App() {
   return (
     <>
-      <ComponentA></ComponentA>
-      <ComponentB name = "Elk" age = {17}></ComponentB>
-      <ComponentParent></ComponentParent>
+
     </>
   )
 }

@@ -5,7 +5,7 @@ This is a repository for the live demo of react workshop, you can visit each pro
 * Make sure you are on the right folder project like `/CFE0` 
 * run `npm run dev` or `bun run dev`
 
-## [CFE0](./src/CFE0) - Components & Props
+## [Session01](./src/CFE0/src/components/session01) - Components & Props
 
 Summary of key concepts learned in this session:
 
@@ -13,4 +13,4 @@ Summary of key concepts learned in this session:
 * **Props**: Read-only data passed one-way from parent to child (like function arguments). Default prop values can be defined (e.g., `color = "black"`).
 * **Children Prop (`children`)**: A special prop used to display whatever elements or content are nested inside a component's opening and closing tags.
 
-For full code examples and detailed notes, check [PROPS&COMPONENTS.md](./CFE0/docs/PROPS&COMPONENTS.md).
+For full code examples and detailed notes, check [01docs.md](./CFE0/src/components/session01).
