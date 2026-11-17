@@ -4,12 +4,17 @@ import { ConditionRendering, InlineCondition } from './components/session02/Cond
 import { Counter, ObjectStates} from './components/session02/State&EventHand.jsx'
 import './App.css'
 import ToDoList from './components/task-components/ToDoList.jsx'
+import { EventHandlers } from './components/session02/EventHandling.jsx'
+import { ComponentsControlls } from './components/session02/Forms.jsx'
 
 function App() {
   return (
     <>
       <div className="root-wrapper">
-        <ObjectStates/>
+        <ConditionRendering isLoading={false}
+          user="Jensen Huang"
+          hasError={false}
+          image/>
       </div>
     </>
   )

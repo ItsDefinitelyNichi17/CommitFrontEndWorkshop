@@ -1,18 +1,19 @@
 import './CondRen.css'
 
-export function ConditionRendering({ isLoading = false, user, hasError }) {
+export function ConditionRendering({ isLoading = false, user, hasError = false, image}) {
   if (isLoading) {
     return <div>loading...</div>
   }
-
   if (!user || hasError) {
      return <div>Error</div>
   }
+
   return (
     <>
       <div className="profile-card">
         <div className="profile-pic-container">
-            <div className = "profile-pic"></div>
+          <div className="profile-pic"
+            style={{ backgroundImage: 'url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTuJ76O3k5yteY2WJPuc1L37Q7Pb-D1vCdfMKMjJsFQelTI_wCfjhHr6X4JGGwpAI89jjm1nEaXQZWSiNrdfYaPaq7MXZavDOGSrzOx73ut1hVJLBqvCJkyaSJ1u6rtNinavH87TtC_UJg&s=19)' }}></div>
         </div>
         <div className = "profile-info">
           <h6>{user}</h6>
@@ -26,8 +27,13 @@ export function ConditionRendering({ isLoading = false, user, hasError }) {
   )
 }
 
+
+
+
 export function InlineCondition(){
-  const isTrue = true
+  const isTrue = false
+  const arr1 = [1, 2, 3]
+
   //condition ? true : false
   return (
     <div style = {{display:'flex', flexDirection:'column'}}>
