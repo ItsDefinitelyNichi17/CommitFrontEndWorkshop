@@ -1,0 +1,25 @@
+.task-list-container{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.task-list-container ol{
+  padding: 20px;
+}
+.task-list-container li{
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black
+}
+
+.task-list-container li p{
+   flex: 3
+}

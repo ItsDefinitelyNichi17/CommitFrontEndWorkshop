@@ -1,0 +1,43 @@
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border: 1px solid #adadad;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    align-content: center;
+    flex-wrap:wrap;
+    gap: 10px
+}
+
+.profile-card .profile-about p{
+    text-align: center;
+    font-size: .4lh;
+}
+
+.profile-card .profile-info h6{
+    text-align: center;
+    font-size: .6lh;
+    font-weight: 500;
+}
+
+.profile-card .profile-info p{
+    text-align: center;
+    font-size: .5lh;
+    font-weight: 400;
+}
+.profile-card .profile-pic-container{
+}
+.profile-card .profile-pic-container .profile-pic{
+    background-image: url(https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTuJ76O3k5yteY2WJPuc1L37Q7Pb-D1vCdfMKMjJsFQelTI_wCfjhHr6X4JGGwpAI89jjm1nEaXQZWSiNrdfYaPaq7MXZavDOGSrzOx73ut1hVJLBqvCJkyaSJ1u6rtNinavH87TtC_UJg&s=19);
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    display:block
+}
